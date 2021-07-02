@@ -1,0 +1,350 @@
+body
+{
+  font-size: 16px;
+  color: #fff;
+  background-color: white;
+  font-family: Oxygen;
+}
+#header-nav
+{
+  background-color: #0075e0;
+}
+#logo-img
+{
+  background: url('../img/npulogo.png') no-repeat;
+  background-size: cover;
+  width:100px;
+  height: 100px;
+/*  border: 2px solid black; */
+  margin:10px 15px 10px 0;
+}
+.navbar-brand{
+  padding-top: 25px;
+}
+.navbar-brand h1
+{
+  font-family: 'lora', serif;
+  color: white;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a
+{
+  text-decoration: none;
+}
+.navbar-brand p
+{
+  color: white;
+  text-transform: uppercase;
+  font-size: .8em;
+  margin-top: 15px;
+}
+.navbar-brand p span
+{
+  vertical-align: middle;
+}
+#nav-list
+{
+  margin-top: 10px;
+}
+#nav-list a
+{
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover
+{
+  color: #e7e7e7;
+}
+.active
+{
+  background-color: #fff;
+  opacity: .8;
+  border-radius: 10px;
+}
+#phone
+{
+  margin-top: 5px;
+}
+#phone div
+{
+  color: black;
+  text-align: right;
+  padding-right: 15px;
+}
+button.navbar-toggler
+{
+  border: 1px solid #61122f;
+}
+#navbarSupportedContent a
+{
+  font-size: 1.2em;
+}
+#navbarSupportedContent a i
+{
+  font-size: 1em;
+  margin-right: 5px;
+}
+.container .jumbotron
+{
+
+  border: 2px solid #3f0c1f;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#album-content
+{
+  margin-top: 15px;
+}
+
+#faculty-content
+{
+  margin-top: 15px;
+}
+
+#menu-tile, #specials-tile, #map-tile, #holi-tile, #bd-tile, #college-tile
+{
+  height: 250px;
+  width: 100%;
+  margin-bottom: 1px;
+  position: relative;
+  border: 2px solid #3f0c1f;
+  overflow: hidden;
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover, #holi-tile:hover, #bd-tile:hover, #college-tile:hover
+{
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#holipage-tile
+{
+  height: 250px;
+  width: 100%;
+  margin-bottom: 1px;
+  position: relative;
+  border: 2px solid #3f0c1f;
+  overflow: hidden;
+}
+#menu-tile
+{
+  background: url('../img/1.jpeg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#specials-tile
+{
+  background: url('../img/faculty.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#holi-tile
+{
+  background: url('../img/2.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#bd-tile
+{
+  background: url('../img/bd.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#college-tile
+{
+  background: url('../img/js2.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#menu-tile span, #specials-tile span, #map-tile span, #holi-tile span, #bd-tile span, #college-tile span
+{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+#faculty-tile
+{
+
+}
+
+#faculty-tile > div
+{
+
+  height: 250px;
+  overflow: hidden;
+}
+
+#faculty-tile img
+{
+  border: 1px solid black;
+}
+
+#teacher-tile
+{
+
+}
+
+#faculty-tile p
+{
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.card-footer
+{
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+}
+.card-footer div.row
+{
+  margin-bottom: 35px;
+}
+#hours, #address
+{
+  line-height: 2;
+}
+#hours>span, #address>span
+{
+  font-size: 1.3em;
+}
+#address p
+{
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
+#testimonials
+{
+  font-style: italic;
+}
+#testimonials p:nth-child(2)
+{
+  margin-top: 25px;
+}
+.category-tile
+{
+  position: relative;
+  border: 2px solid #3f0c1f;
+  overflow: hidden;
+  height: 200px;
+  width: 200px;
+  margin: 0 auto 15px;
+}
+.category-tile span
+{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+.category-tile:hover
+{
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-categories-title + div /*next sibling of the same parent */
+{
+  margin-bottom: 50px;
+}
+@media (min-width: 425px) and (max-width: 575px)
+{
+  .col-xxs-6
+  {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
+.menu-item-tile
+{
+  margin-bottom: 25px;
+}
+.menu-item-tile hr
+{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu-item-tile .menu-item-price
+{
+  font-size: 1.1em;
+  text-align: right;
+  margin-top: -15px;
+  margin-right: -15px;
+}
+.menu-item-tile .menu-item-price span
+{
+  font-size: .6em;
+}
+.menu-item-photo
+{
+  position: relative;
+  border: 2px solid #3f0c1f;
+  overflow: hidden;
+  padding: 0;
+  margin-right: -15px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  max-width: 250px
+}
+.menu-item-photo div
+{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  background-color: #557c3e;
+  text-align: center;
+}
+.menu-item-description
+{
+  padding-right: 30px;
+}
+h3.menu-item-title
+{
+  margin: 0 0 10px;
+}
+.menu-item-details
+{
+  font-size: .9em;
+  font-style: italic;
+}
+@media (max-width: 575px)
+{
+  .menu-item-photo
+  {
+    margin-right: auto;
+  }
+  .menu-item-tile .menu-item-price
+  {
+    text-align: center;
+  }
+  .menu-item-description
+  {
+    text-align: center;
+  }
+}
